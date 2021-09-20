@@ -5,9 +5,9 @@ Inspired by the BMW's art car series [1], this repo explores hat an art car coul
 
 
 ## Results
-| Original car| Art | Art car |
+| Art | Car | Art Car |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="1604" src="https://github.com/giovannicampa/neural_art_cars/blob/master/images/subjects/bmw.jpeg"> | <img width="1604" src="https://github.com/giovannicampa/neural_art_cars/blob/master/images/styles/bauhaus.jpeg"> | <img width="1604" src="https://github.com/giovannicampa/neural_art_cars/blob/master/images/output/bauhaus_car.png"> |
+|<img width="1604" src="https://github.com/giovannicampa/neural_art_cars/blob/master/images/styles/bauhaus.jpeg"> | <img width="1604" src="https://github.com/giovannicampa/neural_art_cars/blob/master/images/subjects/bmw.jpeg"> | <img width="1604" src="https://github.com/giovannicampa/neural_art_cars/blob/master/images/output/bauhaus_car.png"> |
 
 
 ## References
