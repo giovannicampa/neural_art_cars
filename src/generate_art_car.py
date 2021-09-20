@@ -12,8 +12,9 @@ from apply_style import ApplyStyle
 from segmentation import Segmentation
 
 # set default images
+selected_style = "bauhaus"
 content_path = os.path.join("images", "subjects", "bmw.jpeg")
-style_path = os.path.join("images", "styles", "bauhaus.jpeg")
+style_path = os.path.join("images", "styles", f"{selected_style}.jpeg")
 
 segmentation = Segmentation()
 segmentation.read_input_image(content_path)
@@ -54,5 +55,8 @@ stylized_image[mask_pixels_from_original, :] = content_image_array[
     mask_pixels_from_original, :
 ]
 
+save_path = os.path.join("images", "output", f"{selected_style}_car.png")
+
 plt.imshow(stylized_image)
-plt.show()
+plt.axis("off")
+plt.savefig(save_path, bbox_inches="tight")
